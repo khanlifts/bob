@@ -38,9 +38,10 @@ export default () => (
           </div>
         </div>
         <div>
-          <form className="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form className="contact" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
             <input type="text" name="name" id="name" placeholder="Name"/>
-            <input type="text" name="email" id="email" placeholder="Email"/>
+            <input type="email" name="email" id="email" placeholder="Email"/>
             <textarea name="message" id="message" placeholder="Deine Nachricht" cols="30" rows="10" />
             <button type="submit">Senden</button>
           </form>
