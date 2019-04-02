@@ -14,6 +14,7 @@ class Header extends React.Component {
   }
 
   setShowMenu = () => {
+    console.log('window', window)
     if (typeof window !== 'undefined') {
       return window.innerWidth >= 850
     }
