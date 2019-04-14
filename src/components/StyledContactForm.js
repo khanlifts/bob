@@ -63,12 +63,50 @@ const StyledContactForm = styled.div`
   
   button:hover {
     cursor: pointer;
-    color: black;
+    color: white;
     letter-spacing: 2px;
+    background: #bd906f;
   }
   
   button:focus {
     outline: none;
+  }
+  
+  .success-message {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    min-width: 35vw;
+    height: 391px;
+  }
+  
+  .turn-in {
+    animation: rotate 2s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(-180deg);
+    }
+    100% {
+      transform: rotateY(0deg);
+    }
+  }
+  
+  .reload-form {
+    opacity: .5;
+    font-size: 12px;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+  
+  .reload-form:hover {
+    opacity: 1;
+    color: #b28564;
   }
   
   @media (max-width: 1200px) {
