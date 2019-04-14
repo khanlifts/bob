@@ -9,6 +9,7 @@ import PreviewContainer from '../components/PreviewContainer'
 import ImpressionsContainer from '../components/ImpressionsContainer'
 import OKContainer from '../components/OKContainer'
 import ContactForm from '../components/ContactForm'
+import SponsorenContainer from '../components/SponsorenContainer'
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <PreviewContainer/>
     <OKContainer/>
     <ImpressionsContainer/>
+    <SponsorenContainer/>
     <ContactForm/>
   </Layout>
 )

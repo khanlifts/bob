@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 const StyledImpressionsContainer = styled.div`
+  margin: 20vh 0 30vh 0;
   
   .section_title {
     display: flex;

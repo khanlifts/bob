@@ -44,7 +44,7 @@ class Header extends React.Component {
           <nav className="menu">
             <ul>
               <li><Scrollchor to="">Home</Scrollchor></li>
-              <li><Scrollchor to="">Sponsoren</Scrollchor></li>
+              <li><Scrollchor to="#sponsoren">Sponsoren</Scrollchor></li>
               <li><Scrollchor to="">Programm</Scrollchor></li>
               <li className="logo__item"><Scrollchor to=""><Logo/></Scrollchor></li>
               <li><Scrollchor to="">Kontakt</Scrollchor></li>
