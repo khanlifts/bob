@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
-const StyledSponsorenContainer = styled.attrs({
-  id: 'sponsoren'
-}).div`
+const StyledSponsorenContainer = styled.div`
   width: 80%;
   margin: 40vh auto;
   display: flex;
@@ -47,11 +45,16 @@ const StyledSponsorenContainer = styled.attrs({
     align-items: center;
   }
   
-  @media (max-width: 1200px) {
-  }
+  @media (max-width: 850px) {
+    margin: 10vh auto;
   
-  @media (max-width: 550px) {
-  }
+    .categories {
+      flex-flow: row wrap; 
+    }
+    
+    .ingredient-container {
+      width: 100%;
+      padding-bottom: 100px;
+    }
 `
-
 export default StyledSponsorenContainer

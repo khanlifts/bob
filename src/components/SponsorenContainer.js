@@ -38,7 +38,7 @@ export default () => (
       }
     `}
     render={data => (
-      <StyledSponsorenContainer>
+      <StyledSponsorenContainer id="sponsoren">
         <h1>BoB-Sponsoren</h1>
         <div className="categories">
           <div className="ingredient-container">
